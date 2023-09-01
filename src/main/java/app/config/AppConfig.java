@@ -16,11 +16,6 @@ public class AppConfig {
         return new Dog();
     }
 
-    @Bean(name = "animals_cage")
-    public AnimalsCage getAnimalCage() {
-        return new AnimalsCage(getTimer());
-    }
-
     @Bean(name = "timer")
     public Timer getTimer() {
         return new Timer();

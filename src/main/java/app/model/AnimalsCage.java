@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-@Component("animals_cage")
+@Component
 public class AnimalsCage {
     private final Timer timer;
     public AnimalsCage(Timer timer) {
